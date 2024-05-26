@@ -1,0 +1,238 @@
+
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+}
+
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    font-size: 9px;
+}
+
+.row{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: #f2a340 !important;
+    border: 2px solid #C28008 !important;
+}
+
+.btn-primary:hover{
+    background-color:#C28008;
+}
+
+#navbar{
+    justify-content: space-between;
+}
+
+#navbar img{
+    width: 40px;
+    background-color: #fff;
+    padding: 5px 0;
+    margin-left: 15px;
+}
+#navbar a{
+    font-size: 14px;
+    color: #757575;
+    margin-right: 10px;
+}
+
+#navbar a:hover{
+    font-size: 14px;
+    color: #f2a340;
+}
+
+#search-container{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color:#f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%!important;
+    margin: 0 auto;
+}
+
+#services-container{
+    padding: 50px;
+}
+
+#services-container h2{
+    margin-bottom: 10px;
+}
+
+#services-container .subtitle{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+}
+
+#services-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#services-container img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 150px;   
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-profissional{
+    font-size: 14px;
+    color: #757575;
+}
+
+.card .card-description{
+    font-size: 12px;   
+    color: #ccc;  
+}
+
+.card .card-price{
+    color: #ccc; 
+    font-size: 12px;    
+}
+
+footer{
+    text-align: center; 
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+
+.form-group{
+    margin: 15px
+}
+
+.form-group label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#service-create-container input,
+#service-create-container textarea,
+#service-create-container select{
+    font-size: 12px;
+}
+
+#service-create-container{
+    padding: 30px;
+}
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+    max-height: 25rem;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 7px;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h1,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit{
+    margin: 20px 0;
+}
+
+#description-container{
+    margin-top: 15px;
+}
+
+#payments-list{
+   list-style: none; 
+   padding-left: 0;
+}
+
+#payments-list li{
+    display: flex;
+}
+
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-title-container th{
+    width: 25%;
+}
+
+.dashboard-services-container form{
+    display: inline-block;
+}
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
